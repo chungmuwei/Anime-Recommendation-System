@@ -63,7 +63,7 @@ body {
     width: 35px;
 }
 
-/* for result pages */
+/* for result page */
 .result-title {
     padding-top: 100px;
     padding-bottom: 20px;
@@ -94,4 +94,12 @@ body {
     background-color: rgba(0, 191, 255, 0.7);
     width: 21%;
     transition: 0.5s;
+}
+
+/* for error page */
+.error {
+    font-size: 24px;
+    padding-top: 24px;
+    color: white;
+    text-align: center;
 }

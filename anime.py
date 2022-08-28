@@ -46,12 +46,11 @@ def get_recommendation(user_input: str, genres_id: dict, anime_id_at: list, ulti
     anilist = Anilist()
     try:
         usr_anime = anilist.get_anime(user_input)["genres"]
+    # return an empty list if cannot find usr_anime
     except IndexError:
-        print("Cannot find anime")
+        return []
     for i in range(len(usr_anime)):
         usr_anime[i] = usr_anime[i].lower()
-
-    anime2 = anilist.get_anime("Naruto")["genres"]
 
     usr_list = [0] * 19
     for genre in usr_anime:
