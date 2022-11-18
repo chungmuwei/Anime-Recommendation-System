@@ -1,4 +1,3 @@
-from audioop import reverse
 from AnilistPython import Anilist
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import jaccard_score

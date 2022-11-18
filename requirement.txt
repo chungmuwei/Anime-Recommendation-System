@@ -1,7 +1,0 @@
-Flask
-gunicorn
-AnilistPython
-sklearn.metrics.pairwise
-sklearn.metrics
-numpy
-csv
